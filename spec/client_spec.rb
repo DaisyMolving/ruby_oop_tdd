@@ -1,4 +1,4 @@
-require_relative '../lib/client.rb'
+require_relative '../lib/client'
 
 describe Client do
   

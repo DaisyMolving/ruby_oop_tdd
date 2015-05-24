@@ -1,4 +1,4 @@
-require_relative '../lib/portfolio.rb'
+require_relative '../lib/portfolio'
 
 describe Portfolio do
   
