@@ -19,7 +19,7 @@ describe Portfolio do
     expect(portfolio.stock_count).to eq 0
   end
 
-  xit "should provide the list of rising stock" do
+  it "should provide the list of rising stock" do
     rising_stock, falling_stock = Stock.new, Stock.new
     falling_stock.fall
     portfolio.buy(rising_stock)

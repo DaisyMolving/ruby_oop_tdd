@@ -17,4 +17,8 @@ class Portfolio
     @stocks.delete stock
   end
 
+  def list_rising_stock
+    @stocks.select {|stock| stock.rising?}
+  end
+
 end
