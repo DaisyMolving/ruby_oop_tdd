@@ -2,7 +2,7 @@ class Stock
 
   def initialize(options = {})
     @name = options[:name]
-    @price = 5
+    @price = options[:price]
     @price_rise = true
     @number_of_shares = []
   end
