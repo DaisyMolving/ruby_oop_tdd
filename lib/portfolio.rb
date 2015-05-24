@@ -13,4 +13,8 @@ class Portfolio
     @stocks << stock
   end
 
+  def sell stock
+    @stocks.delete stock
+  end
+
 end

@@ -13,7 +13,7 @@ describe Portfolio do
     expect(portfolio.stock_count).to eq 1
   end
   
-  xit 'should be able to sell stock' do
+  it 'should be able to sell stock' do
     portfolio.buy(stock)
     portfolio.sell(stock)
     expect(portfolio.stock_count).to eq 0
